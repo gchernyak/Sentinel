@@ -2,7 +2,9 @@
 
 # SENTINEL CACHE
 
-*by Gennady Chernyak*
+*by Gennady Chernyak* 
+
+**Special thanks to Martin Menezes*
 
 ### Summary
 This library allaws for a configurable auto starting cache system that can also be expired and renewed at will.
