@@ -15,7 +15,7 @@ This caching system caches methods and not just objects as with the previous ver
 > Raw Request to Apiary
 ``` xml
 
-<section name="sentinelCache" type="Viacom.MediaServices.WebApi.Utils.SentinelCacheConfigurations" allowLocation="true" allowDefinition="Everywhere" />
+<section name="sentinelCache" type="Utils.SentinelCacheConfigurations" allowLocation="true" allowDefinition="Everywhere" />
 
 
 <sentinelCache>
