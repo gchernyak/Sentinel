@@ -31,25 +31,26 @@ This caching system caches methods and not just objects as with the previous ver
       </parameters>
     </function>
     <!-- Object Parameter example -->
-    <function methodName="GetAliasGroups" assembly="my.assembly"
-					name="my.namespace" initialAddDelay="1" temporaryBlockDuration=".5"
-					updateInterval="1" maximumSurvival="1">
+    <function methodName="GetAliasGroups" 
+	assembly="my.assembly"
+	name="my.namespace" initialAddDelay="1" temporaryBlockDuration=".5"
+	updateInterval="1" maximumSurvival="1">
       <parameters>
         <![CDATA[<root>
-								<Key>SomeParameter</Key>
-								<UserRpc assembly="my.assembly" namespace="my.namespace.users">
-									<Groups>
-										<Members>
-											<Description>Test</Description>
-											<DomainMember>Member</DomainMember>
-											<Group>Some Group</Group>
-											<IsSecurityGroup>true</IsSecurityGroup>
-										</Members>
-									</Groups>
-									<FirstName>Gennady</FirstName>
-									<LastName>Chernyak</LastName>
-								</UserRpc>
-							</root>]]>
+		<Key>SomeParameter</Key>
+		<UserRpc assembly="my.assembly" namespace="my.namespace.users">
+			<Groups>
+				<Members>
+					<Description>Test</Description>
+					<DomainMember>Member</DomainMember>
+					<Group>Some Group</Group>
+					<IsSecurityGroup>true</IsSecurityGroup>
+				</Members>
+			</Groups>
+			<FirstName>Gennady</FirstName>
+			<LastName>Chernyak</LastName>
+		</UserRpc>
+		</root>]]>
       </parameters>
     </function>
     <!-- End Example -->
